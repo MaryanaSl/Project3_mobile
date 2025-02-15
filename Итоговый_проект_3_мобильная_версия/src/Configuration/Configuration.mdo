@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="142fe234-f3b8-4e99-b10b-e3a92ad00a1d">
+  <name>Mobile</name>
+  <synonym>
+    <key>ru</key>
+    <value>Курьер</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="1907ed55-e788-46a8-9c73-e47fa3b8188e"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="f4ebf7b8-72ef-4cff-8a7e-062f1437cab0"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="08f968e7-ec7e-4fec-80ac-857c74011417"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="2279c2c9-678f-4a50-96e7-281be08926e9"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="a8ae5e9f-9da5-4130-860b-d4f2a63946a2"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="4fdec1e9-7a9d-4967-909f-704b63500a76"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="0c24f276-3fbf-4b8b-b617-84b8ee202b98"/>
+  <configurationExtensionCompatibilityMode>8.3.23</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <functionality>Location</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>NumberDialing</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>Camera</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.21</compatibilityMode>
+  <languages uuid="52ea1da4-d52c-4015-9ba8-417981952a9a">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <exchangePlans>ExchangePlan.ОбменСМобильнымПриложением</exchangePlans>
+  <constants>Constant.АдресЦентральнойБазы</constants>
+  <constants>Constant.ЛогинЦентальнойБазы</constants>
+  <constants>Constant.ПарольЦетральнойБазы</constants>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <documents>Document.Продажи</documents>
+  <documents>Document.Доставка</documents>
+  <enums>Enum.СтатусыДоставок</enums>
+  <reports>Report.Продажи</reports>
+  <dataProcessors>DataProcessor.ОбменСЦентральнойБазой</dataProcessors>
+  <dataProcessors>DataProcessor.Фотобудка</dataProcessors>
+  <dataProcessors>DataProcessor.Позвонить</dataProcessors>
+  <dataProcessors>DataProcessor.Геопозиционирование</dataProcessors>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+</mdclass:Configuration>

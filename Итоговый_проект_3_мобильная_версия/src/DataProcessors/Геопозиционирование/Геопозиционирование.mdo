@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cffdcf79-92a4-4676-ae80-be344278a5d8">
+  <producedTypes>
+    <objectType typeId="5ddf1b73-b84a-4afa-af1d-2c177f9e5ba2" valueTypeId="b6b5f293-4d2a-4f8e-b8e3-6a2e7321325d"/>
+    <managerType typeId="e0526f03-b946-41d3-9d8f-420b6e57abb5" valueTypeId="355c2ba9-ba41-49b0-8020-f2a011b6b949"/>
+  </producedTypes>
+  <name>Геопозиционирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Геопозиционирование</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Геопозиционирование.Form.Форма</defaultForm>
+  <tabularSections uuid="b3000f95-2c18-45f2-8a11-0ef5e049ffb3">
+    <producedTypes>
+      <objectType typeId="78d1c493-e5e9-49ed-acac-336c542c815f" valueTypeId="c9a6814d-31c4-4825-b6f4-aed89a095f6f"/>
+      <rowType typeId="06af1a0e-3fa4-48aa-bb2d-ae63ef4b7272" valueTypeId="b230d3fc-263b-438c-97c9-44ae8aa7bd63"/>
+    </producedTypes>
+    <name>КоординатыТП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Координаты ТП</value>
+    </synonym>
+    <attributes uuid="9aba3259-5407-4d7e-a7a9-a92ecbd05b57">
+      <name>Адрес</name>
+      <synonym>
+        <key>ru</key>
+        <value>Адрес</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>30</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="a00bec10-2f80-445c-8a7e-f22e8d282d2c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

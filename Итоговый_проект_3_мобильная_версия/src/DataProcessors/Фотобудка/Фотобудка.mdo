@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13739b85-13bd-4fd5-9060-719fc33e1003">
+  <producedTypes>
+    <objectType typeId="15df8296-d38f-4873-bd0c-0ed9c3fd8bad" valueTypeId="2ca93817-99a7-45a0-8c4f-844ce4cd98aa"/>
+    <managerType typeId="85324888-d833-4cac-871e-b7c2c3e363dc" valueTypeId="f65a159b-701f-4bce-a094-734d10011c1a"/>
+  </producedTypes>
+  <name>Фотобудка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фотобудка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Фотобудка.Form.Форма</defaultForm>
+  <forms uuid="786d84bc-dd0d-4e13-92ec-692c5670ad0e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

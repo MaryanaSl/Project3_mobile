@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="441b69d7-0b14-4f36-98a7-0ba48b5a3e2a">
+  <producedTypes>
+    <objectType typeId="2a16649c-6145-453c-8897-e086116a7916" valueTypeId="7ddb83fc-a55c-4d01-ba8c-2643d029e624"/>
+    <managerType typeId="542efd41-3036-470a-926e-00c1fb621717" valueTypeId="51daea01-cc9b-4ad2-b1de-8b4824adbc43"/>
+  </producedTypes>
+  <name>Позвонить</name>
+  <synonym>
+    <key>ru</key>
+    <value>Позвонить</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Позвонить.Form.Форма</defaultForm>
+  <forms uuid="294cdad3-da9f-4f8d-bc8f-006b201f77f7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

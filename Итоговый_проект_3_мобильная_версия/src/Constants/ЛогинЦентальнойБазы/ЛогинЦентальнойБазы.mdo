@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84fd63e5-7f09-4899-85f3-32c2c05318fc">
+  <producedTypes>
+    <managerType typeId="0a523df0-8a11-4429-aa5c-bd135e9fcdf1" valueTypeId="8ba2912b-612f-4d25-a35a-ed80a36fb1df"/>
+    <valueManagerType typeId="6e18fcf4-8015-4162-b72a-e1545cbc02a3" valueTypeId="c672fed5-6ccd-4dea-91ed-6063eb83f2dd"/>
+    <valueKeyType typeId="a33834ef-c126-4c75-b7e8-601154c5072f" valueTypeId="35f18979-05bf-49f6-ac31-5927411138e4"/>
+  </producedTypes>
+  <name>ЛогинЦентальнойБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логин центальной базы</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
