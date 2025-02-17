@@ -1,3 +1,12 @@
+## Конфигурация находится в репозитории, информационная база в блоке Realses репозитория
+![image](https://github.com/user-attachments/assets/67b25d96-739d-4c8e-91c7-94c5cdfacdf0)
+
+Чтобы посмотреть код на странице репозитория необходимо развернуть текст.
+
+![image](https://github.com/user-attachments/assets/77889dc2-ebc6-4971-bc8d-c0d8d7f404b5)
+![image](https://github.com/user-attachments/assets/8bfb2687-aed6-476e-b25a-dc7ef78b13db)
+
+
 Ниже приведу код, используемый на стороне мобильного приложения
 
 1. Документ "Доставка"
